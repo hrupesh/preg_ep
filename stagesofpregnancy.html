@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title></title>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800" rel="stylesheet">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/owl.theme.default.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="vendor/custom-icon/style.css">
+    <link rel="stylesheet" href="vendor/animate.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/newstoday-v.min.css">
+    <!-- endinject -->
+
+    <!-- inject:head:js -->
+    <script src="vendor/modernizr-2.8.3.min.js"></script>
+    <!-- endinject -->
+</head>
+<style>
+.newbt{
+background-color:pink;
+color:black;
+width:100%;
+
+border-radius:50px;
+}
+.latestbg{
+background-color:lightpink;
+}
+</style>
+<body>
+<div class="header__breaking-news d-none d-sm-flex ">
+            <div class="container mt-2">
+                <div class="header__breaking-news__inner">
+                    <div class="inner__title">
+                        <span>Basic News</span>
+                    </div>
+
+                    <div class="inner__carousel js-hot-posts owl-carousel">
+                        <div class="inner__carousel__item">
+                            <div class="item__category">Symptoms : </div>
+                            <div class="item__content">
+                                <span>Pregnancy Common Symptoms-Missing Menstruation,Nausea & Vomiting, Fatigue </span>
+                            </div>
+                        </div>
+                        <div class="inner__carousel__item">
+                            <div class="item__category">Major Risk </div>
+                            <div class="item__content">
+                                If you suffer from chronic conditions this may put your
+pregnancy at a higher risk than others
+                            </div>
+                        </div>
+                        <div class="inner__carousel__item">
+                            <div class="item__category">Stages</div>
+                            <div class="item__content">
+                                Three stages- First Trimester,Second Trimester,Third Trimester
+                            </div>
+                        </div>
+						<div class="inner__carousel__item">
+                            <div class="item__category">False Pregnancy</div>
+                            <div class="item__content">
+                                A false pregnancy is a condition that is called psudocyesis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <header class="header header--style-two">
+        <div class="headet__top">
+            <div class="container">
+                <div class="row u-flex--item-center">
+                    <div class="col-2">
+                        <div class="aside-menubar">
+                            <button id="JS-openButton">
+                                <i class="ico-bar"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-8 text-center">
+                        <div class="header__logo">
+                            <a href="#"><img src="img/logo-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="header__search text-right">
+                            <button class="JS-search-trigger">
+                                <i class="ico-search"></i>
+                            </button>
+                        </div>
+                        <!--header search area -->
+                        <div class="header__search__form">
+                            <div class="header__search__inner">
+                                <button class="close-btn JS-form-close"><i class="ico-close"></i></button>
+                                <form class="header__search__form-wrapper" action="#">
+                                    <button class="search-action"><span class="ico-search"></span></button>
+                                    <input class="search-input" type="text" placeholder="Search here">
+                                </form>
+                            </div>
+                        </div><!--// header search area end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header__nav d-none d-lg-block">
+            <div class="container text-center u-relative">
+                <ul>
+                    <li class=""><a href="index.html">Home</a>
+                        
+                    </li>
+                    <li class="menu-item-has-mega-menu has-mega-menu parent__megaMenu pos-left"><a href="basic.html">Basic</a>
+                        <div class="mega-menu">
+                            <!-- Nav tabs -->
+                           
+
+                            <!-- Tab panes -->
+                           
+
+                        </div> <!--//Mega Menu end -->
+
+
+                    </li>
+					<li><a href="about.html">About Pregnancy</a>
+                    </li>
+                    <li><a href="risk.html">Risk</a>
+                    </li>
+                    <li><a href="health.html">Health </a></li>
+                    <li><a href="stages.html">Stages</a></li>
+                    <li><a href="symptoms.html">Symptoms</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile menu area start -->
+    <div class="mobile-menu-area">
+        <div class="btn-wrap">
+            <button  id="JS-closeButton"><i class="ico-close"></i></button>
+        </div>
+        <div class="search-form">
+            <form action="#">
+                <input placeholder="Search Here" type="text">
+                <button><i class="ico-search"></i></button>
+            </form>
+        </div>
+        <nav class="mobile-menu">
+            <ul>
+                <li class="active"><a class="collapsed has-child" data-toggle="collapse" aria-expanded="true"  href="#cat-col-1">Home</a>
+                    
+                </li>
+                <li><a class="collapsed "  data-toggle="collapse" href="#cat-col-2" aria-expanded="true">Basic</a>
+                    
+                </li>
+				<li><a href="about.html">About Pregnancy</a>
+                    </li>
+                
+                <li><a class="collapsed "  data-toggle="collapse" href="#cat-col-4" aria-expanded="true">Risks</a>
+                    
+                </li>
+				<li><a class="collapsed "  data-toggle="collapse" href="#cat-col-4" aria-expanded="true">Health</a>
+                    
+                </li>
+				<li><a class="collapsed "  data-toggle="collapse" href="#cat-col-4" aria-expanded="true">Stages</a>
+                    
+                </li>
+				<li><a class="collapsed "  data-toggle="collapse" href="#cat-col-4" aria-expanded="true">Symptoms</a>
+                    
+                </li>
+
+            </ul>
+        </nav>
+        <div class="social-links">
+            <ul>
+                <li><a href="#"><span class="ion-social-facebook"></span></a></li>
+                <li><a href="#"><span class="ion-social-twitter"></span></a></li>
+                <li><a href="#"><span class="ion-social-googleplus"></span></a></li>
+                <li><a href="#"><span class="ion-social-tumblr"></span></a></li>
+            </ul>
+        </div>
+    </div><!--// Mobile menu area end -->
+	<div class="container u-flex u-flex--content-center">
+            <div class="banner-item__inner mb-10">
+                <a href="#"><img src="img/banner-970x90.jpg" alt=""></a>
+            </div>
+        </div>
+
+    <div class="breadcrumbs-area breadcrumbs-area--dark">
+        <div class="container">
+		
+            <div class="breadcrumbs">
+                
+                <span class="separetor">-</span>
+               <h2> <span class="current">Stages</span></h2>
+            </div>
+        </div>
+    </div><!--//breadcrumbs area end-->
+
+    <section class="has-sidebar u-padding-tb-30 u-gray-bg">
+        <div class="container">
+		
+            <div class="row" data-sticky_parent>
+                <div class="col-lg-8 content-wrapper">
+
+                    <div class="m-post-content m-post-content--van">
+                        <div class="post-top">
+                            <h1 class="post-title" style="font-size:18px; text-align:center">  
+</h1>
+                            
+                        </div>
+
+                        <div class="entry-content">
+                                  <section class="calculator-section">
+            <div class="row">
+                <div class="col-md-12 m-auto">
+                    <div class="card latestbg">
+                        <div class="card-header">
+                            <img src="./assets/icon-512.png" class="cal-img" alt="" srcset="">
+                            <h3 class="text-center" style="color:black;">1-First Trimester Pregnancy</h3>
+							<p class="text-center">What To Expect The First Trimester Pregnancy</p>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="lead text-center"></h4>
+                            <p class="text-align:justify;">In the first trimester, pregnancy is often one of the most confusing
+times.  During these first three months or 12 weeks, much of the time
+you may not realize that you are pregnant. Once you find out, usually
+after the first missed period, you may be left wondering what is
+happening to your doctor.  The changes during this part of the pregnancy
+are often emotional as well as hormonal, which makes for a wide range
+of symptoms to be seen.  Learning about these early pregnancy
+symptoms and how to handle them can help you to prepare for what is
+to come.</p>
+<p class="text-align:justify;">Early pregnancy symptoms will be your first indication that you are
+pregnant.  This may include slight bleeding after fertilization, tender and
+swollen breasts, increased fatigue and discharge.  Early symptoms of
+pregnancy are the body&#39;s way of adjusting to hormonal changes in your
+body.  Once the body realizes that it is pregnant, long before you will, it
+begins to make adjustments to the body to help take care of the
+developing embryo.  Hormones are used to make those changes happen. 
+As the body secretes new hormones or changes the levels of other
+hormones, you will feel it during these first few weeks.</p>
+<p class="text-align:justify;">One of the largest changes that most women face during pregnancy is
+morning sickness.  While it is labelled morning sickness, it is important
+to know that it can happen at any time during your pregnancy, including
+all day long.  For many women, the feeling is nothing more than feeling
+nausea.  For others, it is the feeling of having the flu including aches and
+chills.  Not all women experience morning sickness.  In fact, many do
+not.  What is important to know is that this is a normal body reaction to
+the hormones and changes in your body and as a part of the first
+trimester of pregnancy, they usually subside after that amount of time.</p>
+
+
+
+
+ 
+                            
+
+                         
+                            <!-- LP Form Ends Here -->
+
+                       
+
+                            <!-- Conception Date Form -->
+                           
+                    </div>
+                </div>
+				
+            </div>
+
+        </section>
+		
+                            
+							                  <section class="calculator-section">
+            <div class="row">
+                <div class="col-md-12 m-auto">
+                    <div class="card latestbg">
+                       
+                        <div class="card-body">
+                             
+                            <p class="text-align:center;" class="text-align:justify;"> Many women will want to take an early pregnancy test to find out if they
+are in fact pregnant. You can do so with good accuracy when you
+purchase a quality testing product.  These tests deduct hormones within
+your blood stream, which area also found in your urine.  The test is very
+quick and simple and often gives an accurate answer to you question of
+am I pregnant.  If you have early symptoms of pregnancy, these tests are
+a good first stop for an answer before calling your doctor for a thorough
+exam. </p>
+<p class="text-align:center;" class="text-align:justify;"> During the first trimester of pregnancy, the body will react in a number
+of ways.  You may find yourself temperamental and tired a lot.  You may
+find yourself overwhelmed with happiness one minute, but the next
+minute you may be worried about the problems that could happen.  The
+emotional roller coaster is one that many women go down during these
+first few weeks.  It can even be considered one of many early pregnancy
+symptoms.</p>
+<p class="text-align:center;" class="text-align:justify;"> Weight gain during pregnancy will change throughout.  During the first
+trimester pregnancy weight gain is very little, especially at first.  In fact,
+for many women, they will lose some weight during the first months due
+to a lack of interest in food and to morning sickness. </p>
+<p class="text-align:center;" class="text-align:justify;">
+With the first trimester pregnancy is often a different for each woman. 
+The emotional and physical changes can vary from one person to the
+next.  Most importantly, during these first few months, you should take
+the time to talk to your doctor and have your first exam.  The first signs
+of pregnancy may be faint but by the end of this trimester, you&#39;ll see
+incredibly changes already in your body and lifestyle. </p>
+
+
+ 
+                            
+
+                         
+                            <!-- LP Form Ends Here -->
+
+                       
+
+                            <!-- Conception Date Form -->
+                           
+                    </div>
+                </div>
+				
+            </div><br>
+
+        
+                
+							<h4 style="margin-top:10px;">2-Pregnancy Stages</h4>
+							
+							
+							 <ul class="list-arrow">
+                                    <li class="text-align:justify;">  Pregnancy Stages:  What Your Body Will Go Through ,During each of the three pregnancy stages, your body will go through some
+changes.  At some times, those changes will be drastic and by the end of
+them you may not recognize your body any longer. In other stages of
+pregnancy, the changes are small.  In all situations, knowing what to expect
+from each stage is an important part of being prepared for your baby.  As
+your body changes, it becomes a better home for your child as he or she
+develops.</li><br>
+<h4>In The First Trimester</h4>
+                                    <li class="text-align:justify;">During the first trimester of pregnancy, the changes in the way your body
+looks may be minimal but the way that you feel will likely be very
+different!  Many of the first signs of pregnancy will happen in small ways
+but may have you feeling sick.  For example, you may have nausea which
+may become morning sickness.  You may have increased fatigue, which is
+cause by the many hormones entering your body.  You may also suffer from
+aches and pains, especially in the back.  Your emotions may be across the
+board as mood swings are another effect of hormones.  You may also feel
+
+increased stress and anxiety as you wonder and worry about what is to
+come.</li><br>
+<h4>In The Second Trimester</h4>
+                                    <li class="text-align:justify;">In the second trimester, your body will continue to change.  You will find
+yourself starting to see pregnancy weight too.  As your baby grows and
+expands, you will gain weight.  In most cases, the second trimester is easier
+physically than the first.    You may still be suffering from morning sickness,
+but it is likely to go away soon.  Your abdomen will begin to expand.  And,
+in the sixth month of pregnancy, you are likely to feel your child move for
+the first time.  During pregnancy now, you are likely to feel more aches and
+pains, especially in the pain, in your abdomen and in the groin and thighs. 
+Many women have shortness of breath.  Skin changes during pregnancy
+also begin to happen, including stretch marks.</li><br>
+<h4>In The Third Trimester</h4>
+<li class="text-align:justify;">In the third trimester, pregnancy stages will come to life.  Now, you will see
+the most growth of your abdomen as the child really grows and pushes into
+your abdomen wall and your back.  You may find it more difficult to breath
+now.  Plus, as baby moves around, he may push on your organs, which may
+cause tenderness and pain throughout your body.  You may experience
+heartburn in this stage of pregnancy.  You may also see noticeable
+difference in your ankles and feet including swelling which is caused by the
+increase of weight.  Additional signs of third trimester including
+haemorrhoids, difficulty sleeping well at night, and tender and swollen
+breasts.</li>
+<li class="text-align:justify;">It is important to note that in all pregnancy stages, your body will react
+specifically to you.  In other words, you may experience many of these
+symptoms of pregnancy or no symptoms of pregnancy.   You may find
+yourself feeling much different.  Unless you find yourself facing painful
+situations, or you are unable to cope with certain conditions, you are likely
+having a healthy pregnancy.  Report any changes in the way that you feel to
+your doctor.</li>
+<li class="text-align:justify;">The changes in your body are natural, in most cases. While they may sound
+painful or uncomfortable, they are nearly always a signal of your child&#39;s
+upcoming birth.  From the first signs of pregnancy until your final stage of
+
+pregnancy, your body will conform to the needs of your growing child. 
+With a healthy pregnancy diet, good exercise and sleep, your baby will have
+the best chance are a healthy birth.  Talk to your doctor about changes you
+are unsure about.</li>
+
+                                    
+                                    
+						
+                                </ul>
+                            
+                            
+							
+
+                            
+
+                            
+
+                            
+                           
+                            <h4>3-Week By Week Pregnancy</h4>
+							
+							
+                            <p class="text-align:justify;"> Pregnancy Week By Week Changes In Baby,In pregnancy week by week changes will happen with your baby.  In fact,
+many times babies will change, grow and develop day to day.  As a new
+mother or father, you may want to know what is happening with your child
+at any stage of pregnancy.  While there is some difference between each
+pregnancy, most pregnancies follow the same developmental stages.  You
+can know what changes your baby is having.  Take a look at the changes in
+baby over these pregnancy changes.</p><br>
+<h4>First Trimester Changes</h4>
+<p class="text-align:justify;">First trimester changes during pregnancy will be the smallest in terms of
+mom, but they are significant for baby&#39;s development.  During the first
+weeks of pregnancy, the fertilized egg will implant into the uterus and will
+begin to develop a placenta.  From this point, cells multiple at an incredible
+pace as your baby begins to develop.  By the end of the first trimester, the
+baby will be about three inches long.  They weigh just about an ounce at
+this point.  In the first three months of pregnancy, your baby has ears and
+eyes moving into position as well as a liver that is making bile.  The kidneys
+are growing and secreting the baby&#39;s first urine.</p><br>
+<h4>Second Trimester Changes</h4>
+<p class="text-align:justify;">A look at the pregnancy week by week in the second trimester will allow
+you to see a lot of growth in your baby, including the fact that you will
+actually feel your child move towards the end of this trimester.  By the end
+of this trimester, your baby will weigh just less than two pounds.  He or she
+will be about 13 inches in length.  A closer look at pregnancy in the second
+trimester will reveal that the baby has developed fingers and toes as well as
+eyelashes and eyebrows.  With an ultrasound now, you are likely to see
+your baby&#39;s formation clearly.  Most babies begin to move in the fifth
+month too, so you may feel this happen surprisingly.  Plus, by the time this
+trimester is over, your child will have all of his organs in place and working including the lungs, heart and kidneys, though they can&#39;t sustain him fully
+just yet.</p><br>
+<h4>Third Trimester Changes</h4>
+<p class="text-align:justify;">A closely look at pregnancy week by week in this trimester will show the
+child really becoming defined.  The baby is moving and growing now. 
+Your pregnancy weight gain is likely the highest here.  Weight gain during
+pregnancy will depend on your body, but as your child really grows now, he
+or she will move readily.  Your baby continues to grow and pushes at the
+abdomen.  The baby is able to open eyes now and may even suck his
+thumb.  Baby will also turn during the third trimester of pregnancy to
+ready itself for birth.  The baby is likely to be about 20 to 22 inches in
+length at the time of birth, on average, and weigh about seven to eight
+pounds on average.</p><br>
+<p class="text-align:justify;">Pregnancy stages will differ from one person to another.  With a proper
+pregnancy diet and pregnancy exercise, you will give your baby all he
+needs to develop correctly.  Through ultrasounds and careful monitoring of
+your health, your doctor will work to know what&#39; sharpening with baby in
+pregnancy.  What&#39;s more, your doctor is likely to give you all the
+information that you ask for, so ask questions about pregnancy at each visit
+so that you know what is happening with the development of baby.  With a
+look at pregnancy week by week, you will see an incredible development
+happening.  This amazing look is one that even doctors marvel at from time
+to time.  Your baby&#39;s development makes pregnancy enjoyable.</p><br>
+
+
+
+
+
+
+                                    
+                                    
+                                </ul>
+                           
+                        </div>
+						
+								
+                           
+                        </div>
+						
+						
+					
+						
+
+						
+						
+
+                        <div class="post-share u-margin-t-40">
+                            <h6>Follow us  :</h6>
+                            <div class="share-links social--color">
+                                <a class="social__facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                                <a class="social__google-plus" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span>Google Plus</span></a>
+                                <a class="social__twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="posts-box2 u-margin-t-40">
+                        <div class="posts-box2__top">
+                                <h4 class="posts-box2__top__title font-weight-normal"><span>Responses</span></h4>
+                        </div>
+
+                        <div class="comment-form">
+                            <form class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inp1">Full Name</label>
+                                        <input type="email" class="form-control" id="inp1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="inp2">Email Address</label>
+                                        <input type="email" class="form-control" id="inp2">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 u-margin-t-10">
+                                    <div class="form-group">
+                                        <label for="t1">Comment</label>
+                                        <textarea class="form-control" id="t1" rows="3"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-submit u-margin-t-15">
+                                        <button type="submit" class="text-uppercase c-btn c-btn--solid c-btn--color-brand">Contact us </button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div> <!--//.posts-box  -->
+
+                   
+
+                    <div class="posts-box2 u-margin-t-40">
+                        <div class="posts-box2__top">
+                            <h3><span>Our Blogs</span></h3>
+                        </div>
+                        <div class="posts-list-fluid-first">
+                            <article class="post-item">
+                                <div class="post-item__inner">
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p31-340x200.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">june. 07, 2020  </time>
+                                        </div>
+                                        <h4><a href="#">Symptoms Of Pregnancy
+                                            </a></h4>
+                                        <p class="post-excerpt">
+                                            The mission of the Advanced Liver form Diseases Study Group is to become the premier epidemiology, translational research, and treatment…
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+							
+
+                           
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 side-bar sidebar--right u-md-down-margin-t-40">
+                    <div class="side-bar__inner is_stuck" data-sticky_column>
+                        <div class="widget widget--title-box single-cat">
+                            <div class="widget__title">
+                                <h4>Popular Pages</h4>
+                            </div>
+                            <ul class="posts-wrap">
+
+                                <li>
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p21-80x65.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">june. 07, 2020 </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="pregnancy risk.html">
+                                                Pregnancy Risk
+                                            </a>
+                                        </h6>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p22-80x65.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">june. 06, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="pregnancycalculator.html">
+                                                When To Use Pregnancy Calculator
+                                            </a>
+                                        </h6>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p26-80x65.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">june. 03, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="ivftransfer.html">
+                                                What Is IVF Transfer ?
+                                            </a>
+                                        </h6>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p20-80x65.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">May. 26, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="stagesofpregnancy.html">
+                                                Prevention At the Time Of Pregnancy
+                                            </a>
+                                        </h6>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <a href="#"><img src="img/thumb/p26-80x65.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">May. 20, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="#">
+                                                Stages Of Pregnancy & Ovalution
+                                            </a>
+                                        </h6>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="widget widget--title-box opinion">
+                            <div class="widget__title">
+                                <h4>Recent Blogs</h4>
+                            </div>
+                            <ul class="o-lists">
+
+                                <li>
+                                    <div class="num"></div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">May. 14, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="falsepregnancy.html">
+                                                What Is False Pregnancy
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="num"></div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">May. 10, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="stagesofpregnancy.html">
+                                                What is 1st,2nd & 3rd Trimester
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="num"></div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">April. 20, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="Complications.html">
+                                                Pregnancy Complications
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="num"></div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <time datetime="2018-02-14 20:00">April. 11, 2020  </time>
+                                        </div>
+                                        <h6 class="post-title">
+                                            <a href="healthpregnancy.html">
+                                                1st Healthy Pregnancy
+                                            </a>
+                                        </h6>
+                                    </div>
+                                </li>
+                                
+
+
+                            </ul>
+                        </div>
+                        <div class="widget widget--title-box post-categoris">
+                            <div class="widget__title">
+                                <h4>Categories </h4>
+                            </div>
+                            <div class="post-categoris__wrap">
+                                
+                                <button type="button" class="cat-ctrl" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Select Categories <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
+                                <div class="dropdown-menu w-categoris">
+                                    <a class="dropdown-item" href="#">Pregnancy News</a>
+                                    <a class="dropdown-item" href="#">Pregnancy News</a>
+                                    <a class="dropdown-item" href="#">Health News</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        
+        
+        <div class="footer__bottom">
+            
+        </div>
+        <div class="footer__end footer__end--brand">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 u-sm-down-margin-b-15">
+                        <div class="footer__copyright">
+                            <p class="text-left">© 2020  DR.Pregnancy Calculator</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <nav class="footer__nav">
+                           <ul>
+                                <li><a href="sitemap.html">Site Map</a></li>
+                                <li><a href="privacy.html">Privacy Policy </a></li>
+                                <li><a href="copyright.html">Copyright Policy </a></li>
+                                <li><a href="disclaimer.html">Disclaimer</a></li>
+                                <li><a href="terms.html">Terms of Service</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- inject:js -->
+    <script src="vendor/jquery/jquery-1.12.0.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
+    <script src="vendor/sticky-kit/jquery.sticky-kit.js"></script>
+    <script src="vendor/flexMenu-master/flexmenu.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/nicescroll-master/jquery.nicescroll.min.js"></script>
+    <script src="js/newstoday.js"></script>
+    <!-- endinject -->
+</body>
+
+<!-- Mirrored from phpstack-240591-745191.cloudwaysapps.com/live/newstoday/html/single-post-vancouver.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jun 2020 08:25:12 GMT -->
+</html>
